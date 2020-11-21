@@ -430,8 +430,8 @@ $(function () {
                   <a href="img/fifth/1.png" data-fancybox="5__galerry"></a>
                 </div>
                 <div class="page-5__item-img page-5__item-img-1">
-                  <img src="img/fifth/2.png" alt="" />
-                  <a href="img/fifth/2.png" data-fancybox="5__galerry"></a>
+                  <img src="img/fifth/2.PNG" alt="" />
+                  <a href="img/fifth/2.PNG" data-fancybox="5__galerry"></a>
                 </div>
               </div>
             </div>
