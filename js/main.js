@@ -650,6 +650,8 @@ $(function () {
   document.addEventListener("click", function () {
     if (document.body.classList.contains("fancybox-active")) {
       document.body.style.overflow = "hidden";
+    }else{
+      document.body.style.overflow = "visible";
     }
     setTimeout(() => {
       document
@@ -658,5 +660,12 @@ $(function () {
           document.body.style.overflow = "visible";
         });
     }, 0);
+  });
+  document.addEventListener("touchmove", function () {
+    if (document.body.classList.contains("fancybox-active")) {
+      document.body.style.overflow = "hidden";
+    }else{
+      document.body.style.overflow = "visible";
+    }
   });
 });
